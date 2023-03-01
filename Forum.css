@@ -1,0 +1,163 @@
+.Title {
+    display: block;
+    width: 1000px;
+    height: 350px;
+    margin-left: 200px;
+    margin-top: 10px;
+    transition: all 0.15s;
+}
+.Title:hover{
+    background-color: rgb(87, 29, 29);
+    border-color: lightgray;
+}
+
+.GameName{
+    margin-left: 375px;
+    display: block;
+    background-color: inherit;
+    border: none;
+    font-size: 35px;
+    color:wheat;
+    font-style: italic;
+    transition: all 0.5s;
+}
+
+.GameName:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.bout-game{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.img{
+
+    /*Position & scale*/
+    width: 150px;
+    height: 150px;
+    margin-left: 38px;
+    margin-top: 75px;
+    /*Design*/
+    opacity: 0.55;
+    border-radius: 10px;
+
+    transition: all 0.15s;
+
+}
+.img:hover{
+    cursor: pointer;
+    opacity: 0.85;
+}
+
+.img:active{
+    height: 175px;
+    width: 175px;
+    opacity: 1;
+}
+
+
+.Views{
+    width: 300px;
+    height: 500px;
+    margin-top: 75px;
+    position: absolute; left : 0;
+    display: inline;
+}
+
+.ViewsSection{
+    border-bottom-style: solid;
+    border-color: rgba(0, 0, 0, 0.25);
+    border-width: 1px;
+    height: 175px;
+
+}
+
+.WeekTop3{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color:sienna;
+    font-style: italic;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.WeekTop3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.TopOneWeek, .TopTwoWeek, .TopThreeWeek{
+    color: beige;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-decoration:none;
+    display: block;
+    margin-left: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    width: 150px;
+    padding-left: 10px;
+    transition: all 0.15s;
+}
+
+.TopOneWeek:hover, .TopTwoWeek:hover, .TopThreeWeek:hover{
+    cursor: pointer;
+    background-color:rgba(125, 125, 125, 0.5);
+    border-radius: 7px;
+}
+
+
+.TopOneWeek:active, .TopOneWeek:active, .TopThreeWeek:active{
+    background-color:rgba(125, 125, 125, 0.8);
+}
+
+.TopicsSection{
+    border-bottom-style: solid;
+    border-color: rgba(0, 0, 0, 0.25);
+    border-width: 1px;
+}
+
+.Topics{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    color:sienna;
+    font-style: italic;
+    display: block;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+.LetsPlays, .News, .Walkthrough{
+    color: beige;
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-decoration:none;
+    display: block;
+    margin-left: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    width: 150px;
+    padding-left: 10px;
+    transition: all 0.15s;
+}
+
+.LetsPlays:hover, .News:hover, .Walkthrough:hover{
+    cursor: pointer;
+    background-color:rgba(125, 125, 125, 0.5);
+    border-radius: 7px;
+}
+
+.LetsPlays:active, .News:active, .Walkthrough:active{
+    background-color:rgba(125, 125, 125, 0.8);
+}
+
+
+
+
+
