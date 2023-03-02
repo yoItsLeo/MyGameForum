@@ -1,25 +1,18 @@
-.Title {
-    display: block;
-    width: 1000px;
-    height: 350px;
-    margin-left: 200px;
-    margin-top: 10px;
+.Title, .GameName {
+    display: -moz-grid-group;
+    text-align: center;
+    place-items: center;
     transition: all 0.15s;
-}
-.Title:hover{
-    background-color: rgb(87, 29, 29);
-    border-color: lightgray;
 }
 
 .GameName{
-    margin-left: 375px;
-    display: block;
     background-color: inherit;
     border: none;
     font-size: 35px;
     color:wheat;
     font-style: italic;
     transition: all 0.5s;
+    font-family: Roboto;
 }
 
 .GameName:hover{
@@ -31,6 +24,7 @@
     color: aliceblue;
     text-align: center;
     margin-bottom: 0;
+    font-family: Roboto;
 }
 
 .img{
@@ -68,8 +62,9 @@
 }
 
 .ViewsSection{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
     border-bottom-style: solid;
-    border-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
     border-width: 1px;
     height: 175px;
 
@@ -84,6 +79,7 @@
     display: block;
     text-decoration: none;
     margin-bottom: 25px;
+    font-family: Roboto;
 }
 
 .WeekTop3:hover{
@@ -98,11 +94,11 @@
     text-decoration:none;
     display: block;
     margin-left: 5px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Roboto;
     font-style: italic;
     width: 150px;
     padding-left: 10px;
-    transition: all 0.15s;
+    transition: all 0.25s;
 }
 
 .TopOneWeek:hover, .TopTwoWeek:hover, .TopThreeWeek:hover{
@@ -112,48 +108,50 @@
 }
 
 
-.TopOneWeek:active, .TopOneWeek:active, .TopThreeWeek:active{
+.TopOneWeek:active, .TopTwoWeek:active, .TopThreeWeek:active{
     background-color:rgba(125, 125, 125, 0.8);
 }
 
 .TopicsSection{
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.25);
     border-bottom-style: solid;
-    border-color: rgba(0, 0, 0, 0.25);
+    border-color: rgba(255, 255, 255, 0.5);
     border-width: 1px;
 }
 
 .Topics{
+    display: grid;
     font-size: 25px;
     font-weight: bold;
     text-align: center;
     color:sienna;
     font-style: italic;
-    display: block;
     text-decoration: none;
     margin-bottom: 25px;
+    font-family: Roboto;
 }
 
-.LetsPlays, .News, .Walkthrough{
+.LetsPlays, .News, .Walkthrough, .Locations, .Hints{
+    display: grid;
     color: beige;
     font-size: 20px;
     margin-bottom: 15px;
     text-decoration:none;
-    display: block;
     margin-left: 5px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:Roboto;
     font-style: italic;
     width: 150px;
     padding-left: 10px;
     transition: all 0.15s;
 }
 
-.LetsPlays:hover, .News:hover, .Walkthrough:hover{
+.LetsPlays:hover, .News:hover, .Walkthrough:hover, .Locations:hover, .Hints:hover{
     cursor: pointer;
     background-color:rgba(125, 125, 125, 0.5);
     border-radius: 7px;
 }
 
-.LetsPlays:active, .News:active, .Walkthrough:active{
+.LetsPlays:active, .News:active, .Walkthrough:active, .Locations:active, .Hints:active{
     background-color:rgba(125, 125, 125, 0.8);
 }
 
